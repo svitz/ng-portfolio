@@ -1,0 +1,17 @@
+<div class="jumbotron">
+  <h1>Portfolio:</h1>
+</div>
+<div class="row">
+	<ul ng-repeat="pitem in pitems" class="list-group">
+		<li class="list-group-item">
+			<img class="img-thumbnail" style="width: 200px; height: 200px;" alt="{{pitem.featured.alt}}" src="{{pitem.featured.src}}">
+			<div class="gallery" ng-repeat="img in pitem.imgs">
+				<img class="img-thumbnail gallery-item {{img.class}}" src="{{img.src}}" alt="{{img.alt}}">
+			</div>
+			<h2>{{pitem.name}}</h2>
+			<p class="lead">{{pitem.blurb}}</p>
+			<a class="btn btn-lg btn-primary" href="{{pitem.link}}" alt="{{pitem.alt}}">Visit Site</a>
+		</li>
+	</ul>
+</div>
+

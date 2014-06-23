@@ -1,0 +1,163 @@
+{
+    "links": [
+        {
+            "name": "home",
+            "link": "/",
+            "alt": "Linktohomesection",
+            "class": "homeActive"
+        },
+        {
+            "name": "portfolio",
+            "link": "/portfolio",
+            "alt": "linktoportfoliosection",
+            "class": "portfolioActive"
+        },
+        {
+            "name": "about",
+            "link": "/about",
+            "alt": "Linktoaboutsection",
+            "class": "aboutActive"
+        },
+        {
+            "name": "contact",
+            "link": "/contact",
+            "alt": "linktocontactsection",
+            "class": "contactActive"
+        }
+    ],
+    "about": {
+        "firstName": "Pablo",
+        "lastName": "Barbier-Burks",
+        "title": "Front End Developer – Layout Scientist – Graphic Artist – UX Afficionado",
+        "phone": "(503) 419-6254",
+        "subtitle": "Front End Developer and Graphic Designer",
+        "blurb": "Hello, my name is Pablo, and I can offer you solutions! My background is in Graphic Design and Web Development. I love a challenge and exploring new grounds. If you are looking for a Front-End developer I can give you high quality, high performance, semantic, accessible, usable, and maintainable code; plus styling with style, I am proficient in CSS3, SASS, plus a lot of experience with liquid layout design, mobile first, typography, object oriented styling and atomic design. I am fluent in JavaScript, jQuery and I am good at deciphering API’s and Libraries. I know many frameworks and a large number of libraries already, but I can never know too many. I can also help with some server-side languages like PHP, MySQL and have developed and managed both Drupal and WordPress, giving me a lot of experience in Web Administration at server level. If you are looking for a Graphic Designer, I started working with Adobe software back in 2002 with Photoshop 7 and today, Adobe CC is as familiar to me as the pencil.",
+        "schooling": {
+            "school": "Art Institute of Portland – Associate of Arts",
+            "associate": "Graphic Design",
+            "bachelor": "Web Design and Interactive Media"
+        }
+    },
+    "skills": [
+        "JavaScript",
+        "jQuery",
+        "CSS3",
+        "Sass",
+        "LESS",
+        "PHP",
+        "Foundation",
+        "Bootstrap",
+        "JSON",
+        "MySQL",
+        "ActionScript 3.0",
+        "Express",
+        "COMPASS",
+        "Photoshop",
+        "HTML5",
+        "Illustrator",
+        "After Effects",
+        "AngularJS",
+        "Spanish",
+        "French",
+        "Img Optimization",
+        "Corporate Id",
+        "GIT",
+        "PagodaBox",
+        "Liquid Design",
+        "Agile",
+        "Illustration",
+        "Typography"
+    ],
+        "clients": [
+        {
+            "title": "Contract Web Developer – Graphic Designer – UI/UX Expert",
+            "client": "Tindell & CO",
+            "blurb": "When I first started working with Tindell & Co, the company was being built by Real Estate Agent Jessica Tindell, and she pitched me her idea, from that I created a beautiful, sound brand that has grown immensely since then. I made her logo, all of her stationary, all the signage, social media branding, and finally developed a beautiful website using Drupal 7, a custom made theme based on Twitter’s Bootstrap, and MLS integration. Created an interface for the brokers to access their profiles, manage their references and keep track of their sales, as well as by agent rating system where their clients can access a form to tell their experiences when working with Tindell & Co.",
+            "tech": "To create Tindell & Co logo I used Adobe Illustrator To make Tindell & Co graphics and ads I used Adobe’s Illustrator, Photoshop, and InDesign. For Tindellco.com is Used: Drupal 7’s. PHP to create a custom module, custom page templates and content types as well as to parse information across my pages. HTML5 as the final output for my PHP. JavaScript and jQuery to add behavior and functionality to my pages. I added jQuery Transit as well to create animations and custom transitions, and Twitter’s Bootstrap as my Master Theme, out of which I created a child theme that I properly styled using CSS3. A significant amount of User interface design. A lot of browser compatibility, testing and debugging.",
+            "link": "http://tindellco.com"
+        },
+        {
+            "title": "Contract Web Developer – Graphic Designer",
+            "client": "Sheraton Portland Airport Hotel",
+            "blurb": "Created a variety of graphics including, labels, posters, mailers, email blasts, and worked as a web developer creating landing pages for events like Sheraton Gives Back to School Program where more than 500 kids receive coats, backpacks and back to school supplies. I worked as a team with Joshua Ryan from Scarlet marketing in promoting Sheraton Portland Airport Hotel as a destination hotel for the business and leisure traveler.",
+            "tech": "For their events pages I used HTML5, JavaScript and jQuery to add behavior and functionality and CSS3 for styling.",
+            "link": "http://pollinhotels.com/give/backtoschool.html"
+        },
+        {
+            "title": "Contract Graphic Designer",
+            "client": "Coast Hotels",
+            "blurb": "Created a variety of graphics including posters, mailers, logos, web graphics, news paper ads, magazine ads, email blasts. I was in charge of creating all graphic pieces from concept to final art. I teamed with Scarlett Marketing and we worked for many of their hotels including The Benson Hotel, Paramount Hotels (both Seattle and Portland), Coast Maui Hotel, The Roosevelt Hotel Seattle, Coast Gateway Hotel and Coast Wenatchee Hotel. I also worked on rebranding some of their restaurants and promoting them.",
+            "tech": "For creating their logos I used Adobe Illustrator. For the variety of graphic art pieces I used Adobe’s Illustrator, Photoshop, and InDesign. For their email blasts HTML, and CSS for styling.",
+            "link": "http://www.coasthotels.com/"
+        },
+        {
+            "title": "Contract Graphic Designer",
+            "client": "MasterPark at SeaTac Airport Seattle",
+            "blurb": "Worked in keeping the brand experientially focused, successfully incorporating social media into their online marketing strategy and helped promote MasterPark in the SeaTac community as an engaged member. Created a variety of graphics including mailers, posters, newspaper ads, magazine ads, web graphics and web advertisement.",
+            "tech": "For creating their logos I used Adobe Illustrator. For the variety of graphic art pieces I used Adobe’s Illustrator, Photoshop, and InDesign. For their email blasts HTML, and CSS for styling.",
+            "link": "http://www.masterparking.com/"
+        },
+        {
+            "title": "Contract Web Developer and Manager – Graphic Designer – UX Expert",
+            "client": "Fantasy",
+            "blurb": "Teamed with Scarlett Marketing in rebranding the leading adult retailer in Portland, navigating them away from the traditional idea of a adult store into a more modern female-friendly boutique, increasing their sales to record numbers, and displacing most of its competitors outside the market, in 2012 they opened their 6th retail location. I’ve been in charge of creating all the graphics, logos, social media and web elements, and by maintaining bright fun colors, and treating the brand as mainstream, Fantasy now has the strongest position in the market.",
+            "tech": "For creating their logos I used Adobe Illustrator. For the variety of graphic art pieces I used Adobe’s Illustrator, Photoshop, and InDesign. I also worked on lot of updates to their website which uses WordPress as a CMS, to this I used my expertise in HTML5, PHP and CSS3. For their email blasts HTML, and CSS for styling.",
+            "link": "http://fantasyforadultsonly.com"
+        },
+        {
+            "title": "Contract Web Developer – Graphic Designer",
+            "client": "Zahn Events Center at The Manor",
+            "blurb": "Worked in creating a variety of graphics including, logos, fliers, posters, landing pages, and finally I developed a Drupal 7 site, along with a custom Bootstrap based theme.",
+            "tech": "To create their logos I used Adobe Illustrator To make their graphics and ads I used Adobe’s Illustrator, Photoshop, and InDesign. For their website is Used: Drupal 7’s. PHP to create custom page templates. HTML5 as the final output for my PHP. I used JavaScript and jQuery to add behavior and functionality to my pages. Twitter’s Bootstrap as my Master Theme, out of which I created a child theme that I properly styled using CSS3. I did a significant amount of User interface design. A lot of browser compatibility, testing and debugging.",
+            "link": "http://manor-events.com"
+        },
+        {
+            "title": "Contract Web Developer – Graphic Designer – UI/UX Expert",
+            "client": "Projection Realty",
+            "blurb": "Worked in rebranding Projection Realty, creating a new custom WordPress 3.9 Theme, creating stationary, brochures, logos, etc. My mission was to create an engaging modern experience for the users, to create a strong brand that would withstand time, to establish projection realty’s trustworthiness and reliability.",
+            "tech": "I recreated their current WordPress installation, by using Zurb’s Foundation as my Master Theme, and then creating a custom theme using PHP for my custom page templates, and editing its current Sass to recreate the prototypes mades using Photoshop CC. To redesign their logo I used Adobe Illustrator, and to create the rest of their web graphics, ads, brochures etc, I used Photoshop, Illustrator, and InDesign.",
+            "link": "http://projectionrealty.com"
+        },
+        {
+            "title": "Contract Web Developer – Graphic Designer – UX Expert",
+            "client": "Green Legacy Cleaning",
+            "blurb": "Worked in rebranding Green Legacy Cleaning, creating a custom WordPress 3.9 Theme based on their existing theme, creating stationary, brochures, logos, etc. My mission was to establish Green Legacy cleaning as one of the leading providers of environmentally friendly office and home cleaning services, I accomplished this by creating a strong brand that did not shy away from leading cleaning suppliers, and to further develop their site, soon deploying their new interface to allow Cleaning Service Professionals to effectively manage their appointments and for their respective clients to easily book their appointments.",
+            "tech": "I recreated their current WordPress installation, by using Aspect as my Master Theme, and then creating a custom theme using PHP for my custom page templates, made the appropriate changes using CSS3. To design their logo I used Adobe Illustrator, and to create the rest of their web graphics, ads, brochures etc, I used Photoshop, Illustrator, and InDesign.",
+            "link": "http://green-legacy-cleaning.com"
+        }
+    ],
+        "pitems": [
+        {
+            "name": "Tindell & Co",
+            "link": "http://tindellco.com",
+            "alt": "Link to Tindell Website",
+            "blurb": "I worked in creating the Brand for Tindell & Co, I created their logo, hand selected their corporate fonts, color palettes, and style tiles. People love the brand and the company has grown exponentially in the years I’ve been working as it’s stylist.",
+            "imgs": [
+                {
+                    "title": "Tindell & Co Flier Example",
+                    "alt": "Tindell & Co flier Example",
+                    "class": "rectangle-vertical",
+                    "src": "../../images/tindell/TindellCoFlier.png"
+                },
+                {
+                    "title": "Tindell & Co Flier Example",
+                    "alt": "Tindell & Co flier Example",
+                    "class": "rectangle-vertical",
+                    "src": "../../images/tindell/TindellCo_FlierOmaha.png"
+                },
+                {
+                    "title": "Tindell & Co Flier Example",
+                    "alt": "Tindell & Co flier Example",
+                    "class": "rectangle-horizontal",
+                    "src": "../../images/tindell/emailSignature.jpg"
+                }
+            ],
+            "featured": {
+                "title": "Tindell & Co Outdoor Sign",
+                "alt": "Tindell & Co Outdoor Sign",
+                "src": "../../images/tindell/OutdoorSign.png"
+            }
+        }
+    ]
+
+}

@@ -1,0 +1,39 @@
+<div ng-controller="AdminCtrl">
+	<table class="table edit">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Count</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="pitem in items.pitems">
+            <td><input type="text" ng-model="pitem.name" ng-blur="updatePtem(id)"/></td>
+            <td><input type="text" ng-model="pitem.link" ng-blur="updatePtem(id)"/></td>
+            <td><input type="text" ng-model="pitem.blurb" ng-blur="updatePtem(id)"/></td>
+            <td>
+                <a href="#" ng-click="removePitem(id)" class="navbar-link">Remove</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="well">
+        <h4>Add Pitem</h4>
+
+        <form class="form-inline" role="form" novalidate ng-submit="addPitem()">
+            <div class="form-group">
+                <input type="text" class="form-control" ng-model="newPitem.name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" ng-model="newPitem.blurb" placeholder="Description">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" ng-model="newPitem.link" placeholder="Link">
+            </div>
+            <button type="submit" class="btn btn-default">Add</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1>{{items.about.firstName}}</h1>
+    <h1>{{items.about.lastName}}</h1>
+    <p class="lead">
+      {{items.about.title}}
+    </p>
+    <h2>{{items.about.phone}}</h2>
+  </div>
+</div>
+<div class="container">
+<div class="row">
+  <h4>{{items.about.schooling.school}}</h4>
+  <p class="lead">
+    {{items.about.schooling.associate}}
+  </p>
+  <h4>{{items.about.schooling.school}}</h4>
+  <p class="lead">
+    {{items.about.schooling.bachelor}}
+  </p>
+</div>
+
+<div class="row">
+  <p>
+    {{items.about.blurb}}
+  </p>
+
+  <h4>Skills</h4>
+  <div class="columns">
+    <ul ng-repeat="skill in items.skills">
+      <li>{{skill}}</li>
+    </ul>
+  </div>
+  <h4>Experience</h4>
+  <div class="client">
+    <ul class="list-group" ng-repeat="client in items.clients">
+      <li class="list-group-item">
+      <h4>{{client.title}}</h4>
+      <p class="lead">{{client.client}}</p>
+      <p>{{client.blurb}}</p>
+      <h5>Technologies used:</h5>
+      <p>{{client.tech}}</p>
+      <a type="button" class="btn btn-lg btn-primary" role="button" href="{{client.link}}" target="_Blank">Visit Site</a>
+      </li>
+    </ul>
+  </div>
+</div>
